@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: center;
+    color: darkorange;
+    font-family: 'Pacifico', cursive;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    }
+nav a{
+    text-decoration: none;
+    color: rgb(79, 14, 231);
+}
+main {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+}
+footer{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+button {
+height: 20px;
+}
+.chat {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
