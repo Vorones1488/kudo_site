@@ -35,10 +35,15 @@ border: 2px solid red;
 }
 .chat {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
 }
-h2 {
+p {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    
+}
+.chat_const {
+    display: flex;
+    flex-direction: column;
 }

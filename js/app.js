@@ -5,6 +5,15 @@ function name1(){
     //логика
     let yur_name = `${first_name} ${second_name}`
     document.getElementById("names").innerText = yur_name
- 
-}
-
+ }
+ function chat(){
+    let message = NaN
+    let yur_names = NaN
+    let result
+        message = document.getElementById('inp').value 
+        yur_names = document.getElementById('name').value
+        result = `${yur_names} - ${message}`
+        document.getElementById('first_mesage').innerText = result
+        console.log(result)
+        document.getElementById('inp').value = "";
+ }
